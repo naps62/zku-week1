@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/bash -ue
 
 cd contracts/bonus
 
-mkdir SystemOfEquations
+mkdir -p SystemOfEquations
 
 if [ -f ./powersOfTau28_hez_final_10.ptau ]; then
     echo "powersOfTau28_hez_final_10.ptau already exists. Skipping."
